@@ -1,0 +1,57 @@
+.body_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav_bar {
+  background-color: black;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_links {
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.nav_images {
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.nav_text {
+  color: red;
+}
+
+.content-container {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.content-column {
+  flex-direction: column;
+  padding-left: 2%;
+  flex: 1;
+}
+
+.projects-column {
+  flex-direction: column;
+  flex: 2;
+}
+
+.greeting-row {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.avatar-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
